@@ -1,3 +1,18 @@
+// ==UserScript==
+// @name         DuoliFarmer
+// @namespace    https://tampermonkey.net
+// @version      1.0
+// @description  DuoliFarmer giúp bạn tăng Xp Duolingo siêu nhanh!
+// @author       kudodz
+// @match        https://*.duolingo.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=duolingopro.net
+// @grant        none
+// @license      none
+// @downloadURL https://raw.githubusercontent.com/kudo1004/DuoliFarmer/refs/heads/main/DuoliFarmer.user.js
+// @updateURL https://raw.githubusercontent.com/kudo1004/DuoliFarmer/refs/heads/main/DuoliFarmer.meta.js
+// ==/UserScript==
+
+
 (function() {
     'use strict';
     const sessionUrl = "https://www.duolingo.com/2017-06-30/sessions";
